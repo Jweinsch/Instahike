@@ -9,6 +9,12 @@
    body {
     background-color: gray;
    }
+
+   .img-round {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+   }
    
    #title {
     background-color: blue;
@@ -64,11 +70,11 @@
     Message </button>
    <hr>
    
-   <img src="https://user-images.githubusercontent.com/98330955/151246470-b1bcc844-9707-4c45-9bf5-d221ff9887a6.JPG" alt="Zoey and Dada" height="200" width="200">
+   <!-- Good, option 1 is to use an image off the internet, this makes the app slower and depends on the image existing on the internet tho. So if this file goes offline its out of your control. -->
+   <img src="https://images.unsplash.com/photo-1568454537842-d933259bb258?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80" class="img-round">
    
-   <!-- <img src="
-    untitled/users/joshuaweinschreider/desktop/photos/zoey&dad.jpg"
-    alt="Zoey & Dada"> -->
+   <!-- Better, option 2 is to upload the image within the project. This can make the app size bigger, but will keep load times faster and the image is controled by you so it should never go away. -->
+   <img src="photos/photo1-unsplash.jpeg" alt="Unsplash Free Image" class="img-round">
    
    
    
