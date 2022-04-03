@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: gray;
+   }
+   
+   #title {
+    background-color: blue;
+    border: solid 8px;
+    border-radius: 10px;
+    font-family: cursive;
+   }
+   
+   #topphoto {
+    border-radius: 50%;
+    border: solid
+   }
+   
+   #headingintro {
+    text-align: left;
+   }
+   
+   #name {
+    font-family: didot, sans-serif;
+   }
+   
+   hr {
+    border: solid;
+    color: black;
+   }
+   
+   .bodyphotos{ 
+    border-radius:50px; 
+    width:100px; 
+    height:100px; 
+    display:flex; 
+    flex-direction:row;
+  }
+   
+   .photodetails{width:2%; text-align:center;}
+   
+   
+   
+   details > summary {
+  list-style: none;}
+   
