@@ -38,6 +38,9 @@ body {
   }
    
    .photodetails{width:2%; text-align:center;}
+
+   .picexp{border: solid;
+    display:flex;}
    
    
    
