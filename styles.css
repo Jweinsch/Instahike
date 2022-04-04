@@ -35,6 +35,7 @@ body {
     height:100px; 
     display:flex; 
     flex-direction:row;
+    margin: 10px 10px 10px 10px;
   }
    
    .photodetails{width:2%; text-align:center;}
