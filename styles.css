@@ -39,8 +39,10 @@ body {
    
    .photodetails{width:2%; text-align:center;}
 
-   .picexp{border: solid;
-    display:flex;}
+   .picexp{
+    display:flex;
+    height: 150px;
+    width: 500px;}
    
    
    
